@@ -13,7 +13,7 @@ This Python script processes `metal-HUD` data from a text file, extracting key i
 
 1. **Prepare your `metal-HUD` data file:** Your input file should have lines in the following format:
    ```bash
-   <timestamp> metal-HUD: <frame-number>,<frame-misses>,<memory-usage>,<frame-present-interval-1>,<frame-gpu-time-1>,<frame-present-interval-2>,<frame-gpu-time-2>,..
+   <timestamp> metal-HUD: <first-frame-number-integer>,<frame-misses-integer>,<process-memory-usage-float>,<first-frame-present-interval-float>,<first-frame-gpu-time-float>,...<last-frame-present-interval-float>,<last-frame-gpu-time-float>
    
 2. **Run the script:** To process the data, simply run the script with your input filename:
    ```bash
