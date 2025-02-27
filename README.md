@@ -35,4 +35,6 @@ This Python script processes `metal-HUD` data from a text file, extracting key i
 
   The output filenames are based on the input filename, with `_output.csv` and `_summary.csv` appended to the name.
 
-   
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
